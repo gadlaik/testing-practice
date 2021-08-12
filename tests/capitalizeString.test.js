@@ -1,5 +1,5 @@
-const capitalize = require("../code/capitalizeString");
+const capitalizeString = require("../code/capitalizeString");
 
 test("Will it capitalize?", () => {
-  expect(capitalize("henlo frens")).toEqual("Henlo frens");
+  expect(capitalizeString("henlo frens")).toEqual("Henlo frens");
 });
